@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-28T20:08:40 EEST" name="artifactid" finished-at="2020-04-28T20:08:42 EEST" duration-ms="1843">
+  <suite started-at="2020-04-28T20:39:46 EEST" name="artifactid" finished-at="2020-04-28T20:39:48 EEST" duration-ms="2411">
     <groups>
       <group name="marketplace_tests">
         <method signature="FirstTest.logInPageTest()[pri:1, instance:FirstTest@5b7a5baa]" name="logInPageTest" class="FirstTest"/>
       </group> <!-- marketplace_tests -->
     </groups>
-    <test started-at="2020-04-28T20:08:40 EEST" name="SeparateBrowserTest" finished-at="2020-04-28T20:08:42 EEST" duration-ms="1843">
+    <test started-at="2020-04-28T20:39:46 EEST" name="SeparateBrowserTest" finished-at="2020-04-28T20:39:48 EEST" duration-ms="2411">
       <class name="FirstTest">
-        <test-method is-config="true" signature="setUp(Browsers)[pri:0, instance:FirstTest@5b7a5baa]" started-at="2020-04-28T20:08:25 EEST" name="setUp" finished-at="2020-04-28T20:08:40 EEST" duration-ms="14428" status="PASS">
+        <test-method is-config="true" signature="setUp(Browsers)[pri:0, instance:FirstTest@5b7a5baa]" started-at="2020-04-28T20:39:35 EEST" name="setUp" finished-at="2020-04-28T20:39:46 EEST" duration-ms="10928" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[FIREFOX]]>
+                <![CDATA[CHROME]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logInPageTest()[pri:1, instance:FirstTest@5b7a5baa]" started-at="2020-04-28T20:08:40 EEST" name="logInPageTest" finished-at="2020-04-28T20:08:42 EEST" duration-ms="1780" status="PASS">
+        <test-method signature="logInPageTest()[pri:1, instance:FirstTest@5b7a5baa]" started-at="2020-04-28T20:39:46 EEST" name="logInPageTest" finished-at="2020-04-28T20:39:48 EEST" duration-ms="2324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FirstTest@5b7a5baa]" started-at="2020-04-28T20:08:42 EEST" name="tearDown" finished-at="2020-04-28T20:08:44 EEST" duration-ms="2064" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FirstTest@5b7a5baa]" started-at="2020-04-28T20:39:48 EEST" name="tearDown" finished-at="2020-04-28T20:39:49 EEST" duration-ms="843" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

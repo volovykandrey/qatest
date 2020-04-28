@@ -143,7 +143,7 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;artifactid&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;SeparateBrowserTest&quot; verbose=&quot;0&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;FIREFOX&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;CHROME&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;FirstTest&quot;/&gt;
     &lt;/classes&gt;
@@ -197,12 +197,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'logInPageTest')
 data.setCell(0, 2, 'FirstTest')
-data.setCell(0, 3, 1780);
+data.setCell(0, 3, 2324);
 window.suiteTableData['artifactid']= { tableData: data, tableDiv: 'times-div-artifactid'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-artifactid">
               </div> <!-- times-div-artifactid -->
             </div> <!-- times-div -->
@@ -230,16 +230,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">FirstTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">setUp(FIREFOX)</span>
+                <span class="method-name">setUp(CHROME)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">logInPageTest</span>
-                <span class="method-start">14481 ms</span>
+                <span class="method-start">11010 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">16327 ms</span>
+                <span class="method-start">13418 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
