@@ -6,3 +6,4 @@ javacore\OutOfParentChild.class
 FirstTest.class
 TestBase.class
 TestBase$1.class
+test\DeploymentPageTests.class

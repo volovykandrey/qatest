@@ -1,0 +1,6 @@
+# Default ignored files
+/.idea/*
+/target/*
+/drivers/*
+/test-output/*
+/artifactid.iml
