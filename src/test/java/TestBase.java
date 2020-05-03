@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
 public class TestBase {
-    WebDriver driver;
+    WebDriver driver; //Firefox
     ElementsHelper elements;
     public String testUrl = "https://github.com/login";
 
@@ -32,8 +32,9 @@ public class TestBase {
             default:
                 throw new RuntimeException("Invalid specified browser: " + browser + ", expected one of 'CHROME', 'FIREFOX', 'EDGE', 'IE11'");
         }
+        //driver = Firefox;
 
-        elements = new ElementsHelper(driver);
+        elements = new ElementsHelper(driver); //driver -> Firefox
         driver.get(testUrl);
         driver.manage().window().maximize();
     }

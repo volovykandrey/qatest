@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
+
 public class ElementsHelper {
     private WebDriver driver;
 
@@ -23,7 +25,7 @@ public class ElementsHelper {
     }
 
     public String getElementTextVisibilityOf(By element, int timeout) {
-        WebDriverWait wait = new WebDriverWait(driver, timeout);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
         try {
             wait.until(ExpectedConditions.visibilityOfElementLocated(element));
             return driver.findElement(element).getText();
