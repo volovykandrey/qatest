@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="artifactid">
+
+    <test name="CHROME browser tests">
+        <parameter name="browser" value="CHROME"/>
+        <classes>
+            <class name="testcases.FirstTest"></class>
+        </classes>
+    </test>
+
+    <test name="FIREFOX browser tests">
+        <parameter name="browser" value="FIREFOX"/>
+        <classes>
+            <class name="testcases.FirstTest"></class>
+        </classes>
+    </test>
+</suite>

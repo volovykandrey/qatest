@@ -11,12 +11,12 @@
     that You can set using "-Dbrowser" parameter e.g. "-Dbrowser=Chrome";
     
 For example if You want to run tests for "........" only in Chrome You can use the following command: 
-"mvn package -Denvironment=qatest -DrunnerFile=select_browser -Dbrowser=Chrome";
-For run tests in all available browsers: "mvn package -Denvironment=qatest -DrunnerFile=all_browsers";
+"mvn clean package -DrunnerFile=select_browser -Dbrowser=CHROME";
+For run tests in all available browsers: "mvn package -DrunnerFile=select_browser";
 
 ####Note:
 
-- Web Browsers Drivers will be downloaded automatically using dependencies in the "pom.xml" file;
+- Web testbase.Browsers Drivers will be downloaded automatically using dependencies in the "pom.xml" file;
 - Test execution report You can find in the "target/surefire-reports/emailable-report.html";
 - For run specific test suites You can use "*.xml" files in the "runner" folder and set name of the specific test case;
 - Available browsers: Chrome, Firefox, Edge, IE11 (Tests in IE11 and Edge currently aren't working, should be provided solution soon);

@@ -1,10 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="artifactid">
 
-    <test name="SeparateBrowserTest">
+    <test name="hello world">
         <parameter name="browser" value="${browser}"/>
         <classes>
-            <class name="FirstTest"></class>
+            <class name="testcases.FirstTest"></class>
         </classes>
     </test>
 </suite>
